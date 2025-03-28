@@ -3,7 +3,7 @@ import {View, Image, StyleSheet, TouchableOpacity} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {StackParamList} from '../navigation/types.ts';
 import {NavigationProp} from '@react-navigation/native';
-import ImageModal from './modals/ImageModal.tsx';
+import ImageModal from './modals/PicModal.tsx';
 import {SFSymbol} from 'react-native-sfsymbols';
 import ThemeContext from '../context/ThemeContext.tsx';
 

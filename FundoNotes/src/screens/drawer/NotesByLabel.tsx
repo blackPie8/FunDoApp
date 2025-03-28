@@ -1,8 +1,8 @@
 import React, {useState, FC, useEffect, useContext} from 'react';
 import {View, StyleSheet, SafeAreaView, ScrollView} from 'react-native';
 import BottomBar from '../../components/BottomBar.tsx';
-import SelectedHeader from '../../components/headers/SelectedHeader.tsx';
-import ScreenHeader from '../../components/headers/ScreenHeader.tsx';
+import SelectedHeader from '../../components/headers/SelectHeader.tsx';
+import ScreenHeader from '../../components/headers/MainHeader.tsx';
 import {DrawerParamList} from '../../navigation/types.ts';
 import {DrawerScreenProps} from '@react-navigation/drawer';
 import {Note} from '../../types.ts';

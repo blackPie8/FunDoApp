@@ -3,12 +3,12 @@ import {View, StyleSheet, SafeAreaView, ScrollView} from 'react-native';
 import SearchHeader from '../../components/headers/SearchHeader.tsx';
 import BottomBar from '../../components/BottomBar.tsx';
 import NoteContext from '../../context/NoteContext.tsx';
-import SelectedHeader from '../../components/headers/SelectedHeader.tsx';
+import SelectedHeader from '../../components/headers/SelectHeader.tsx';
 import NoteShowCase from '../../components/note/NoteShowCase.tsx';
 import ThemeContext from '../../context/ThemeContext.tsx';
 import {Note} from '../../types.ts';
 import AlertContainer from '../../components/AlertContainer.tsx';
-import AccountSwitchingModal from '../../components/modals/AccountModal.tsx';
+import AccountSwitchingModal from '../../components/modals/Modal.tsx';
 
 const Home = () => {
   const [toggleGrid, setToggleGrid] = useState<boolean>(true);

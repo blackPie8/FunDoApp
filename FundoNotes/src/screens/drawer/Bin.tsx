@@ -9,9 +9,9 @@ import {
 } from 'react-native';
 import BottomBar from '../../components/BottomBar.tsx';
 import NoteContext from '../../context/NoteContext.tsx';
-import SelectedHeader from '../../components/headers/SelectedHeader.tsx';
+import SelectedHeader from '../../components/headers/SelectHeader.tsx';
 import NoteShowCase from '../../components/note/NoteShowCase.tsx';
-import ScreenHeader from '../../components/headers/ScreenHeader.tsx';
+import ScreenHeader from '../../components/headers/MainHeader.tsx';
 import ThemeContext from '../../context/ThemeContext.tsx';
 import {Note} from '../../types.ts';
 import AlertContainer from '../../components/AlertContainer.tsx';
