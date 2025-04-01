@@ -1,8 +1,8 @@
 import React from 'react';
-import NoteState from './context/NoteState';
-import ThemeState from './context/ThemeState.tsx';
-import Navigator from './navigation/Navigator.tsx';
-import AuthState from './context/AuthState.tsx';
+import NoteState from './src/context/NoteState.tsx';
+import ThemeState from './src/context/ThemeState.tsx';
+import Navigator from './src/navigation/Navigator.tsx';
+import AuthState from './src/context/AuthState.tsx';
 
 const App = () => {
   return (
